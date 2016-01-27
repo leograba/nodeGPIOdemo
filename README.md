@@ -8,7 +8,9 @@ corresponding LEDs, by accessing the file system (/sys/class/gpio).
 This demo is part of an article on how to access/control the GPIO via web with a friendly UI (Demo 1), so the following repositories are enhanced 
 versions of the current application:
 
+
 [Demo 2 - Control one GPIO via web using Node.js](https://github.com/leograba/WebNodeGPIOdemo.git)
+
 [Demo 3 - Control multiple GPIO via a friendly web UI, using Node.js](https://github.com/leograba/WebNodeMultiGPIOdemo.git)
 
 # Dependencies
@@ -21,9 +23,11 @@ To run this application some node modules need to be installed:
 After installing the dependencies you can run the application using Node. 
 
 To run it you need just to:
+
 	node server.js
 
 To display log messages:
+
 	DEBUG=myserver node server.js
 
 # Helpful modules
